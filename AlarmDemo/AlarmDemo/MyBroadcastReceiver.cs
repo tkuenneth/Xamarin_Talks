@@ -37,6 +37,7 @@ namespace AlarmDemo
             {
                 wl.Release();
             }
+            dict.Remove(key);
         }
     }
 }
